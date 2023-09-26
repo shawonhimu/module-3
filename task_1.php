@@ -2,15 +2,15 @@
 
 $text = "The quick brown fox jumps over the lazy dog";
 
-function strConverter($text) {
+function strConverter($txt) {
     //Convert string to all lowercase
-    $cnvtdLowerCase = strtolower($text);
+    $cnvtdLowerCase = strtolower($txt);
     echo $cnvtdLowerCase, PHP_EOL;
     //Replace "brown" with "red"
     $src = "brown";
     $repls = "red";
 
-    $replacedStr = str_replace($src, $repls, $text);
+    $replacedStr = str_replace($src, $repls, $txt);
     echo $replacedStr, PHP_EOL;
 }
 

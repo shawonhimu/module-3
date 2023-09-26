@@ -21,8 +21,8 @@ $studentGrades = [
     ],
 ];
 
-function calculateAvgGrades($subjectGrades) {
-    $calculatedAvgGrade = array_sum($subjectGrades) / count($subjectGrades);
+function calculateAvgGrades($subjectGradeVal) {
+    $calculatedAvgGrade = array_sum($subjectGradeVal) / count($subjectGradeVal);
     $roundedAvgGrade = round($calculatedAvgGrade, 2);
     return $roundedAvgGrade;
 }
